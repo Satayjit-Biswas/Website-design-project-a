@@ -1,0 +1,67 @@
+/*======================
+   01. Google fonts
+========================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;display=swap');
+
+/*======================
+   02. Basic css
+========================*/
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+strong,
+i,
+ol,
+ul,
+li,
+form,
+label,
+footer,
+header,
+menu,
+nav,
+section {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	line-height: 26px;
+	font-family: 'Poppins', sans-serif;
+	background-color: #fff;
+	color: #616368;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+	font-weight: 600;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+button:focus,
+a:focus {
+	outline: none;
+}
