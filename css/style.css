@@ -2,7 +2,7 @@
    01. Google fonts
 ========================*/
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Roboto:wght@400;500;700;900&display=swap');
 
 /*======================
    02. Basic css
@@ -38,7 +38,7 @@ section {
 
 body {
 	line-height: 26px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	background-color: #fff;
 	color: #616368;
 	font-weight: 400;
@@ -48,8 +48,11 @@ body {
 h2,
 h3,
 h4,
-h5 {
-	font-weight: 600;
+h5,
+h6 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	color: #393542;
 }
 
 ol,
@@ -64,4 +67,31 @@ a:hover {
 button:focus,
 a:focus {
 	outline: none;
+}
+
+.f-left {
+	float: left;
+}
+.f-right {
+	float:right;
+}
+
+
+
+
+
+/* Header css */
+.transparent-header {
+	position: absolute;
+    left: 0;
+    right: 0;
+}
+.main-menu ul li {
+    display: inline;
+
+.main-menu ul li a {
+    padding: 30px;
+    color: #cfcfd8;
+    font-size: 18px;
+    font-weight: 700;
 }
